@@ -342,10 +342,22 @@ startGame()
 
 // write your code after this line:
 
+    for (let i = 0; i < 3; i++) {
 
+        for (let i = 0; i < 9; i++) {
+            KAREL.putBall("red");
+            KAREL.move();
+        }
 
+        KAREL.putBall("red");
+        KAREL.turnRight();
 
+    }
 
+    for (let i = 0; i < 9; i++) {
+        KAREL.putBall("red");
+        KAREL.move();
+    }
 
 
 //do not add code below this line
